@@ -1,0 +1,22 @@
+### First 5 rows:
+        date  rating                                             review
+0  25.08.31.       5  유통기한도 굉장히 기네요\n\n일단 저는 뽀득뽀득 클렌저를 ㅂㄹ 안 좋아합니다\n흔...
+1  25.08.30.       5  자극없이 깨끗하게 세안되어 만족합니다.\n선크림도 깔끔없이 지워지고 세안 후 수분이...
+2  25.09.01.       5         거품도 잘 나고 트러블 피부에도 좋은 성분으로 만들어진 클렌징폼이라 좋아요💚
+3  25.08.24.       5  아이들 여드름때문에 주문했어요\n아비브부활초라인 광팬이라 더 믿음이 갔구요\n제가 ...
+4  25.09.01.       5                                   원래 사용하고 있던거고 좋아요
+
+### Columns:
+Index(['date', 'rating', 'review'], dtype='object')
+
+### Info:
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 934 entries, 0 to 933
+Data columns (total 3 columns):
+ #   Column  Non-Null Count  Dtype 
+---  ------  --------------  ----- 
+ 0   date    934 non-null    object
+ 1   rating  934 non-null    int64 
+ 2   review  934 non-null    object
+dtypes: int64(1), object(2)
+memory usage: 22.0+ KB
